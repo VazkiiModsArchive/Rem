@@ -83,10 +83,11 @@ public class CommandFlip extends Command {
 	public void trigger(PircBot bot, String channel, String sender, String login, String hostname, List<String> tokens) {
 		String guy = "(\u256f\u00b0\u25a1\u00b0)\u256f\ufe35 ";
 
-		String flipmsg = "";
+		StringBuilder flipBuilder = new StringBuilder();
 		for(String s : tokens)
-			flipmsg = flipmsg + s + " ";
+			flipBuilder.append(s).append(" ");
 
+		String flipmsg = flipBuilder.toString();
 		String riot = guy + (flipmsg.isEmpty() ? "\u253b\u2501\u253b" : flip(flipmsg));
 		bot.sendMessage(channel, riot);
 	}
