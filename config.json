@@ -1,0 +1,245 @@
+{
+  "verboseLogging": true,
+  "ircInfo": {
+    "name": "Rem",
+    "login": "Rem",
+    "display": "Meido. Type ?rem for help.",
+    "password": "",
+    "server": "irc.esper.net",
+    "homeChannel": "#vazkii",
+    "encoding": "UTF-8",
+    "commandPrefix": "?",
+    "missingDescMessage": "I don\u0027t have a description for this command.",
+    "partMessage": "Bye now~",
+    "quitMessage": "See ya, I\u0027ll be back soon~",
+    "helpCommand": "rem",
+    "helpMessage": "Here to help! My commands:",
+    "delay": 1000
+  },
+  "features": {
+    "twitter": true,
+    "otherChannels": true,
+    "slowMode": true,
+    "findAndReplace": true,
+    "tableUnflip": true,
+    "builtInCommands": {
+      "consult": true,
+      "lmgtfy": true,
+      "roll": true,
+      "coinflip": true,
+      "dongers": true,
+      "riot": true,
+      "flip": true,
+      "mcstatus": true
+    }
+  },
+  "twitterOAuth": {
+    "consumerKey": "",
+    "consumerKeySecret": "",
+    "accessToken": "",
+    "accessTokenSecret": ""
+  },
+  "otherChannels": [
+    "#vaztest"
+  ],
+  "customCommands": [
+    {
+      "command": "unflip",
+      "description": "Put the table back!",
+      "replies": [
+        "┬─┬﻿ ノ( ゜-゜ノ)"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "shrug",
+      "description": "Shrug it up!",
+      "replies": [
+        "¯\\_(ツ)_/¯"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "russianroulette",
+      "description": "Game of chance!",
+      "replies": [
+        "Click.",
+        "Click.",
+        "Click.",
+        "Click.",
+        "Click.",
+        "BANG!"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "test",
+      "description": "testing",
+      "replies": [
+        "test 123"
+      ],
+      "opOnly": true
+    },
+    {
+      "command": "baka",
+      "description": "BAKA BAKA BAKA BAKA",
+      "replies": [
+        "https://www.youtube.com/watch?v\u003d5wFDWP5JwSM\u0026feature\u003dyoutu.be\u0026t\u003d23s"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "bfaq",
+      "description": "Links to the Botania FAQ",
+      "replies": [
+        "http://bit.ly/1pWiGzp"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "faq",
+      "description": "Links to Vazkii\u0027s FAQ",
+      "replies": [
+        "http://bit.ly/1pWiFvj"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "grammar",
+      "description": "Correct your grammar.",
+      "replies": [
+        "https://www.youtube.com/watch?v\u003d8Gv0H-vPoDc"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "br101",
+      "description": "Links to Bug Reporting 101",
+      "replies": [
+        "http://bit.ly/2bjOGJa"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "modpacks",
+      "description": "Speaks about modpack rules.",
+      "replies": [
+        "Don\u0027t ask whether mods can be used in modpacks. Check their license instead. For mods on Curse, this can be found to the right of the page, under the download counter."
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "eta",
+      "description": "No ETAs!",
+      "replies": [
+        "It\u0027ll be out when it\u0027s done. We don\u0027t know when it\u0027s done. No, we won\u0027t give you a vague timeframe. Don\u0027t ask about it, be patient."
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "srsly",
+      "description": "Seriously bruh?",
+      "replies": [
+        "ಠ_ಠ"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "uwot",
+      "description": "u fkin wot m8",
+      "replies": [
+        "http://bit.ly/1lUKBKa"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "ucray",
+      "description": "ARE YOU CRAZY!? ARE YOU OUTTA YOUR MIND!?",
+      "replies": [
+        "http://bit.ly/2bktOnK"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "getdown",
+      "description": "Get down on it!",
+      "replies": [
+        "http://bit.ly/2c0aKNg"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "yaynay",
+      "description": "Yay or nay?",
+      "replies": [
+        "Yay",
+        "Nay"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "navyseals",
+      "description": "YOU LIL BITCH",
+      "replies": [
+        "What the fuck did you just fucking say about me, you little bitch? I’ll have you know I graduated top of my class in the Navy Seals, and I’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You’re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that’s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little “clever” comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn’t, you didn’t, and now you’re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You’re fucking dead, kiddo."
+      ],
+      "opOnly": true
+    },
+    {
+      "command": "spork",
+      "description": "holds up spork",
+      "replies": [
+        "hi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol…as u can see im very random!!!! thats why i came here, 2 meet random ppl like me _… im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl \u003d) like they say the more the merrier!!!! lol…neways i hope 2 make alot of freinds here so give me lots of commentses!!!! DOOOOOMMMM!!!!!!!!!!!!!!!! \u003c--- me bein random again _^ hehe…toodles!!!!! love and waffles, t3h PeNgU1N oF d00m"
+      ],
+      "opOnly": true
+    },
+    {
+      "command": "harambe",
+      "description": "Dicks out.",
+      "replies": [
+        "Dicks out for Harambe."
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "ram",
+      "description": "Links to the post on RAM on Vazkii\u0027s website.",
+      "replies": [
+        "http://bit.ly/2bKYYou"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "updates",
+      "description": "Links to the post on updates on Vazkii\u0027s website.",
+      "replies": [
+        "http://bit.ly/2bDS6XH"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "mahouka",
+      "description": "IS PSI BASED ON MAHOUKA THO",
+      "replies": [
+        "http://bit.ly/2bDSW6P"
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "jibril",
+      "description": "Where is jibril?",
+      "replies": [
+        "Rem \u003e Jibril."
+      ],
+      "opOnly": false
+    },
+    {
+      "command": "source",
+      "description": "Get Rem\u0027s source code",
+      "replies": [
+        "http://bit.ly/2bTaGwB"
+      ],
+      "opOnly": false
+    }
+  ]
+}
