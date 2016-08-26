@@ -14,10 +14,11 @@ public class CommandRiot extends Command {
 	public void trigger(PircBot bot, String channel, String sender, String login, String hostname, List<String> tokens) {
 		String guy = "\u0F3C \u3064 \u25D5_\u25D5 \u0F3D\u3064";
 
-		String riotmsg = "";
+		StringBuilder riotBuilder = new StringBuilder();
 		for(String s : tokens)
-			riotmsg = riotmsg + s + " ";
+			riotBuilder.append(s).append(" ");
 
+		String riotmsg = riotBuilder.toString();
 		String riot = guy + " " + (riotmsg.isEmpty() ? "RIOT" : (riotmsg.toUpperCase() + "OR RIOT")) + " " + guy;
 		bot.sendMessage(channel, riot);
 	}

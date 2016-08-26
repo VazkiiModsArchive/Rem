@@ -14,10 +14,11 @@ public class CommandDongers extends Command {
 	public void trigger(PircBot bot, String channel, String sender, String login, String hostname, List<String> tokens) {
 		String guy = "\u30FD\u0F3C\u0E88\u0644\u035C\u0E88\u0F3D\uFF89";
 
-		String dongermsg = "";
+		String dongerBuilder = new StringBuilder();
 		for(String s : tokens)
-			dongermsg = dongermsg + s + " ";
+			dongerBuilder.append(s).append(" ");
 
+		String dongermsg = dongerBuilder.toString();
 		String riot = guy + " RAISE YOUR " + (dongermsg.isEmpty() ? "DONGERS" : dongermsg.toUpperCase()) + guy;
 		bot.sendMessage(channel, riot);
 	}
